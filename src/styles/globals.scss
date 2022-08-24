@@ -1,0 +1,57 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.error {
+  margin-top: 33px;
+  color: red;
+  font-size: 18px;
+}
+
+.input {
+  background: #FAFAFA;
+  border-radius: 10px;
+  width: 325px;
+  padding: 16px 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  display: flex;
+  flex-direction: column;
+
+  &:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid lightgray;
+  }
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #C4C5C4;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #C4C5C4;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #C4C5C4;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #C4C5C4;
+}

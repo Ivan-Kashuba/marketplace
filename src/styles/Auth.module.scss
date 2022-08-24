@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_item {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_label {
+  margin-bottom: 20px;
+  font-size: 14px;
+
+}
+
+.send_btn {
+  width: 325px;
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  background: #3669C9;
+  color: #fff;
+
+  &:hover {
+
+    border: 1px solid lightgray;
+    opacity: 0.8;
+  }
+}
+
+.form_header {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.form_span {
+  color: #838589;
+  font-size: 14px;
+}
